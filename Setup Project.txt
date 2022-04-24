@@ -1,0 +1,22 @@
+Project Setup
+
+Laravel 8 requires PHP 7.3+ or above so you need this version or the latest version of PHP installed on your system
+
+
+1. Run composer install command
+2. Run php artisan key:generate command
+3. Setup .env File
+4. Create Database
+5. Run php artisan migrate --seed command
+6. Run php artisan optimize command
+
+Login Credentials
+
+E-mail : admin@admin.com
+Password : Admin@123
+
+E-mail : user@user.com
+Password : User@123
+
+After Login Need to Run Command for Background Process
+php artisan queue:work
